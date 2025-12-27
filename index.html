@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="text" id="age">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender">
+        </div>
+        <div>
+            <label for="standard">Standard:</label>
+            <input type="text" id="standard">
+        </div>
+        <div>
+            <label for="phone no">Phone no:</label>
+            <input type="text" id="phone">
+        </div>
+    </form>
+    <button onclick="add()" type="submit">Submit</button>
+    <div id="test"></div>
+    <div id="NameValue"></div>
+    <div id="AgeValue"></div>
+    <div id="GenderValue"></div>
+    <div id="StandardValue"></div>
+    <div id="PhoneValue"></div>
+
+    <div class="displayTable">
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Standard</th>
+                <th>Phone</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
